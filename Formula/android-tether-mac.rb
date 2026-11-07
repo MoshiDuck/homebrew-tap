@@ -4,6 +4,7 @@ class AndroidTetherMac < Formula
   url "https://github.com/MoshiDuck/android-tether-mac/archive/refs/tags/v0.1.1.tar.gz"
   sha256 "73976800eaf69eddd0bfe055e86a581de29b193064fd3b63e9d8cc2cb500492d"
   license "GPL-3.0-or-later"
+  head "https://github.com/MoshiDuck/android-tether-mac.git", branch: "main"
 
   depends_on :macos
   depends_on "pkgconf" => :build
