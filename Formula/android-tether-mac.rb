@@ -6,9 +6,9 @@ class AndroidTetherMac < Formula
   license "GPL-3.0-or-later"
   head "https://github.com/MoshiDuck/android-tether-mac.git", branch: "main"
 
-  depends_on :macos
-  depends_on "pkgconf" => :build
   depends_on "libusb"
+  depends_on "pkgconf" => :build
+  depends_on :macos
 
   def install
     # Garde les sources dans libexec : tethermac-install les recompile en tant
