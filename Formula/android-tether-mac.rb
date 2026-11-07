@@ -1,8 +1,8 @@
 class AndroidTetherMac < Formula
   desc "USB tethering for Android phones on macOS (userspace RNDIS driver, no kext)"
   homepage "https://github.com/MoshiDuck/android-tether-mac"
-  url "https://github.com/MoshiDuck/android-tether-mac/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "8d4bb9ceadf54aaf7d9f59e7a8b6a08bbd3c5cfa9b146ddfa6c1ae72b0f46284"
+  url "https://github.com/MoshiDuck/android-tether-mac/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "73976800eaf69eddd0bfe055e86a581de29b193064fd3b63e9d8cc2cb500492d"
   license "GPL-3.0-or-later"
 
   depends_on :macos
