@@ -26,5 +26,11 @@ jobs:
       - name: Install Homebrew Bundler RubyGems
         run: brew install-bundler-gems
 
+      - name: Clean up before the run
+        run: brew test-bot --only-cleanup-before
+
+      - name: Set up the test environment
+        run: brew test-bot --only-setup
+
       - name: Style, audit and syntax of the tap
-        run: brew test-bot --only-cleanup-before --only-setup --only-tap-syntax
+        run: brew test-bot --only-tap-syntax
